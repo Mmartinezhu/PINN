@@ -1,3 +1,16 @@
+## Resumen
+
+Este repositorio contiene el desarrollo de un estudio comparativo entre dos planteamientos para la implementación de Redes Neuronales Informadas por la Física (Physics-Informed Neural Networks, PINN) aplicadas a la resolución de un problema de valores de frontera.
+
+El objetivo principal es evaluar el desempeño de ambos enfoques en términos de precisión numérica y eficiencia computacional. Para ello, se implementan modelos basados en TensorFlow/Keras, se define una función de pérdida informada por la ecuación diferencial y se realiza una búsqueda aleatoria de hiperparámetros sobre múltiples configuraciones experimentales.
+
+Los dos planteamientos comparados son:
+
+1. Incorporación directa de la ecuación diferencial y las condiciones de frontera en la función de pérdida.
+2. Reformulación de la solución aproximada para satisfacer automáticamente las condiciones de frontera.
+
+El análisis se basa en métricas como el error relativo, la evolución de la función de pérdida y el costo computacional durante el entrenamiento.
+
 # README: Análisis Comparativo de Planteamientos en Redes Neuronales Informadas por la Física (PINN)
 
 ## **Introducción**
